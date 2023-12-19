@@ -1,0 +1,345 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+h1{font-family: 'Dhurjati', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;}
+        
+.header{
+    background-color:cadetblue;
+     width:100%;
+     box-sizing: border-box;
+     height:120px;
+     display: flex;
+     flex-wrap: wrap;
+     box-sizing: border-box;
+    }
+        
+.name{
+     padding-left: 70px;
+     width: 50%;
+     line-height: 100px;}
+
+
+    
+
+.link {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;}
+    
+.home{
+    color:azure;
+    padding-left: 10px;
+    float: left;
+    padding-top: 5px;
+    font-size:x-large;
+    text-decoration: none;}
+
+ .home:hover{
+    background-color: darkcyan;
+    border: 2px solid white;
+    zoom: 1;}
+                
+.input{
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 15px;}
+
+.banner{
+    background-image: url("https://mrbrownbakery.com/image/images/xbbgC1RYaAGScBn3rE3nUZFziHn3JB8zes4fprxJ.jpeg?p=main_slider" );
+    background-repeat: no-repeat;
+    width:100%;
+    background-size:cover;
+    height: 400px;
+    margin-top: 0px;}
+            
+
+.row{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px;
+    background-color:burlywood;
+    height: 1600px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr;
+    column-gap:40px; 
+    row-gap: 1px;}
+                
+.cake1{background-color:bisque;
+    height: 500px;
+    width: 255px;
+}
+.oder {
+    width: 248px;
+}
+        
+        
+.cake{
+    
+     border: 3px solid gray;
+     box-shadow: 1px 1px 1px 1px;
+     border-radius: 20px 20px 20px 20px;}
+        
+.mains{ 
+    
+     display: flex;
+     align-items: center;
+     justify-content: center;}
+    
+.items{
+  /* float: right;
+    margin: 10px;
+    padding-right: 200px; */
+     color: brown;
+     font-size: xx-large;
+    text-decoration: none;
+    margin: 30px;}
+        
+.items:hover{
+     color: blueviolet;
+    transform:skew(10deg);}
+
+
+
+.cake:hover{
+       transform: scale(1.1);}
+         
+h2{
+     text-align: center;
+     font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+          
+h5{
+     color:rgba(255, 0, 0, 0.836);
+     font-size: xx-large;}
+
+ h6{
+  font-size: x-large;}
+            
+ button{
+     width: 90px;
+     height: 30px;
+     color:brown;
+    background-color: cadetblue;}
+            
+.banner2{
+      display: flex;}
+            
+ .banner2 img{
+     background-repeat: no-repeat;
+    width:60%;
+     height: 600px;
+     background-size:cover;} 
+
+.banner2 video{
+    width: 100%;
+    height: 600px;
+    background-size:cover;}
+             
+.maincookies{
+    background-color:white;
+    width: 100%;
+     height: 950px;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;}
+    /* display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr  ;
+     grid-template-rows:1fr  ;} */
+
+.cookie{
+     background-color:beige;
+     margin: 30px;
+    border-radius:10px 10px ;
+     border: 3px solid gray;
+    height: 650px;
+width:305px ;}
+
+    .subcookie{
+        width: 300px;
+        height: 400px;
+    }
+            
+.cookie:hover{
+     border-radius: 50%;}
+            
+.subcookie:hover{
+    border-radius: 50%;
+    filter:blur(2px);}
+            
+.footer{
+     background-color:cadetblue;
+    display: flex;
+    justify-content: center;
+    width:100% ;
+    height: 450px;
+}
+
+.subfooter{
+  background-color:black;
+  width: 300px;
+height:400px ;
+margin: 30px;}
+            
+.list{
+text-align: center;}
+
+ul li ul li a{
+    text-decoration: none;
+    color: azure;
+    font-size: x-large;}
+
+.marquee{
+    font-size: xx-large;
+    color: crimson;}
+
+
+
+@media screen and (max-width:400px) {
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+
+.header{
+        background-color:cadetblue;
+         width:400px;
+         box-sizing: border-box;
+         height:120px;
+         display: flex;
+         flex-wrap: wrap;
+         box-sizing: border-box;
+        } 
+.link{
+    display: none;
+}
+
+.mains{ 
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+
+.banner{
+    background-size: contain;
+    width: 400px;
+    height:100px ;
+}
+.row{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px;
+    background-color:burlywood;
+    height: 3800px;
+    display: grid;
+    grid-template-columns:1fr ;
+    grid-template-rows:1fr 1fr 1fr;
+    column-gap:40px; 
+    row-gap: 1px;}
+
+    .cake{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+                
+.cake1{background-color:bisque;
+    height: 500px;
+    width: 255px;
+}
+.hide{
+    display: none;
+}
+
+.banner2{
+    display: flex;}
+          
+.banner2 img{
+   background-repeat: no-repeat;
+   width:100%;
+   height: 150px;
+   background-size:contain;} 
+
+.banner2 video{
+    display: none;
+  }
+
+  .maincookies{
+    background-color:white;
+    width:100%;
+     height:2110px;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;}
+    /* display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr  ;
+     grid-template-rows:1fr  ;} */
+
+.cookie{
+     background-color:beige;
+     margin: 30px;
+    border-radius:10px 10px ;
+     border: 3px solid gray;
+    height: 650px;
+width:300px ;}
+
+    .subcookie{
+        width: 300px;
+        height: 400px;
+    }
+            
+.cookie:hover{
+     display: none;}
+            
+.subcookie:hover{
+    display: none;}
+
+.footer{
+        background-color:cadetblue;
+       display: flex;
+       justify-content: center;
+       width:100% ;
+       height: 210px;
+   }
+   
+.subfooter{
+     background-color:black;
+     width: 200px;
+   height:200px ;
+   margin: 3px;}
+
+
+}
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
